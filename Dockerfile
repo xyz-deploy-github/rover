@@ -1,7 +1,7 @@
 ###########################################################
 # base tools and dependencies
 ###########################################################
-FROM --platform=${TARGETPLATFORM} ubuntu:21.10 as base
+FROM --platform=${TARGETPLATFORM} ubuntu:22.04 as base
 
 SHELL ["/bin/bash", "-c"]
 
